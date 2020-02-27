@@ -7,10 +7,6 @@
         <span>MANAGER</span>
       </v-app-bar-title>
       <v-spacer></v-spacer>
-      <v-btn text color="grey">
-        <span>Sign Out</span>
-        <v-icon right>exit_to_app</v-icon>
-      </v-btn>
     </v-app-bar>
 
     <v-navigation-drawer app v-model="drawer" absolute temporary>
@@ -47,11 +43,7 @@ export default {
   data() {
     return {
       drawer: false,
-      items: [
-        { icon: "dashboard", title: "Dashboard", route: "/" },
-        { icon: "folder", title: "Préparations", route: "/preparations" },
-        { icon: "person", title: "Team", route: "/team" }
-      ]
+      items: [{ icon: "Home", title: "Home", route: "/" }]
     };
   }
 };
