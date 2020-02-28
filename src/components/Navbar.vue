@@ -1,12 +1,15 @@
 <template>
-  <nav>
+  <div>
     <v-app-bar flat app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-app-bar-title class="text-uppercase grey--text">
+      <v-toolbar-title class="text-uppercase grey--text">
         <span class="font-weight-light">Prep</span>
         <span>MANAGER</span>
-      </v-app-bar-title>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-btn text color="grey">
+        <span>Sign Out</span>
+      </v-btn>
     </v-app-bar>
 
     <v-navigation-drawer app v-model="drawer" absolute temporary>
@@ -34,7 +37,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-  </nav>
+  </div>
 </template>
 
 <script>
