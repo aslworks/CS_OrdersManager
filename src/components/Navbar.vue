@@ -30,8 +30,7 @@
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-icon>
-
-          <v-list-item-content>
+          <v-list-item-content class="text-left align-self-start">
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -46,7 +45,11 @@ export default {
   data() {
     return {
       drawer: false,
-      items: [{ icon: "mdi-home", title: "Home", route: "/" }]
+      items: [
+        { icon: "mdi-home", title: "Home", route: "/" },
+        { icon: "mdi-account", title: "Audience" },
+        { icon: "mdi-flag", title: "Conversions" }
+      ]
     };
   }
 };
