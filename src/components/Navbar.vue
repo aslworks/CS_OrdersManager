@@ -46,7 +46,7 @@ export default {
   data() {
     return {
       drawer: false,
-      items: [{ icon: "Home", title: "Home", route: "/" }]
+      items: [{ icon: "mdi-home", title: "Home", route: "/" }]
     };
   }
 };
