@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar/>
-    <h1>Home</h1>
+    <h1>Dashboard</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 import Navbar from "@/components/Navbar";
 
 export default {
-  name: "Home",
+  name: "Dashboard",
   components: { Navbar }
 };
 </script>

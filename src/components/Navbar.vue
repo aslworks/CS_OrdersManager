@@ -47,7 +47,7 @@ export default {
       drawer: false,
       items: [
         { icon: "mdi-home", title: "Home", route: "/" },
-        { icon: "mdi-account", title: "Audience" },
+        { icon: "mdi-account", title: "Dashboard", route: "/Dashboard" },
         { icon: "mdi-flag", title: "Conversions" }
       ]
     };
